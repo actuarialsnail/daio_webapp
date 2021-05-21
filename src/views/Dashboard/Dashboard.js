@@ -746,7 +746,7 @@ export default function Dashboard() {
                             />
                           </CardBody>
                           <CardFooter stats>
-                            <Button color="primary" disabled={(!isAdmin || !forApprovePolicyholder.lengh) ? true : false} onClick={() => grantRole('policyholder')}>Grant roles</Button>
+                            <Button color="primary" disabled={(!isAdmin || !forApprovePolicyholder.length) ? true : false} onClick={() => grantRole('policyholder')}>Grant roles</Button>
                           </CardFooter>
                         </Card>
                       </GridItem>
