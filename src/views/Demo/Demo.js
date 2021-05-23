@@ -60,13 +60,11 @@ export default function DemoPage() {
         </p>
       </CardHeader>
       <CardBody>
-
+        <h4>MetaMask - how to get free Ethereum on the Rinkeby test network</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wk9W01KI4RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <List>
           <ListItem alignItems="flex-start">
-            <ListItemText
-              primary="Topic area"
-              secondary="embedded video"
-            />
+
           </ListItem>
           <Divider />
           <ListItem alignItems="flex-start">
@@ -112,9 +110,6 @@ export default function DemoPage() {
           </ListItem>
           <Divider />
         </List>
-
-
-
       </CardBody>
     </Card>
   );

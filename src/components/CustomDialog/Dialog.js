@@ -76,7 +76,7 @@ export default function CustomizedDialogs(props) {
             Details of the acronyms, technical terminologies and definitions used in the dapp are further explained <a href={"./Descriptions"}>here</a>.
           </Typography>
           <Typography gutterBottom>
-            This dapp simulates the lifecycle of {props.data.term}-year fixed term life annuity proudcts in a fund with an interval of {props.data.payInterval} seconds representing 1 year. The fund is set up to maintain a solvency ratio between {props.data.solvencyTarget}% and {props.data.solvencyCeiling}% by automatically restricting new investments/policies and distributing surplus.
+            This dapp simulates the lifecycle of {props.data.term}-year fixed term life annuity proudcts in a fund with an interval of {props.data.payInterval} seconds representing 1 year. The fund is set up to maintain a solvency ratio between {props.data.solvencyTarget}% and {props.data.solvencyCeiling}% by automatically restricting new investments/policies and distributing surplus. All deposits by investors and policyholders have been standardised to 0.1 ETH for simplicity.
           </Typography>
           <Typography gutterBottom>
             The pricing and valuation annuity factors (currently set at {props.data.a_x / 100}) have been assumed to be the same for simplicity. For example, an annuity factor of 15.38 is the present value of all 30 future payments discounted with an interest rate of 5% per time interval. The (decentralised) oracle will be able to update the bases for a fixed nominal fee based on the size of the fund.
