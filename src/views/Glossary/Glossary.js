@@ -64,22 +64,22 @@ export default function GlossaryPage() {
         <List>
           <ListItem alignItems="flex-start">
             <ListItemText
-              primary="Definition"
-              secondary="explanation"
+              primary="MetaMask"
+              secondary="MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications."
             />
           </ListItem>
           <Divider />
           <ListItem alignItems="flex-start">
             <ListItemText
-              primary="Definition"
-              secondary="explanation"
+              primary="Ethereum"
+              secondary="Ethereum is a decentralized, open-source blockchain with smart contract functionality. ETH is the native cryptocurrency of the platform. "
             />
           </ListItem>
           <Divider />
           <ListItem alignItems="flex-start">
             <ListItemText
-              primary="Definition"
-              secondary="explanation"
+              primary="Smart contract"
+              secondary="A smart contract is a computer program or a transaction protocol which is intended to automatically execute, control or document legally relevant events and actions according to the terms of a contract or an agreement."
             />
           </ListItem>
           <Divider />
