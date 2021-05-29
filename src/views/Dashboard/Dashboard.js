@@ -39,7 +39,7 @@ import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js"
 const useStyles = makeStyles(styles);
 
 const deployed_network = "Rinkeby";
-const deployed_contract_address = '0x1a2264388fb69d7c946f55e56bc218c989b01378';
+const deployed_contract_address = '0x9C75e082E7F22a8cd6736FD56Eac07B341C2C51F';
 const standard_contract_amount = "0.1";
 
 export default function Dashboard() {
