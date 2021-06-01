@@ -60,8 +60,12 @@ export default function DemoPage() {
         </p>
       </CardHeader>
       <CardBody>
-        <h4>Intro to the decentralised insurance prototype idea</h4>
+        <h4>0. Intro to the decentralised insurance prototype idea</h4>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ALlO37pIZkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>1. Value transfer from investor to policyholder demonstration</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3xPQK7_hvvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>2. Value transfer from policyholder to investor demonstration</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u4rQdOZdSzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h4>MetaMask - how to get free Ethereum on the Rinkeby test network</h4>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Wk9W01KI4RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <List>
